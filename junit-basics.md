@@ -309,10 +309,12 @@ In this tutorial we will learn how to create a simple test class that is used to
  <br>
 
 1. Compile `MyTest.java` and `TestRunner.java`.
+ > Make sure that you are in the `junit-basics` directory before issuing the command below.
+   
  ```bash
     >javac -classpath build/libs/*;build/classes/main -d build/classes/test src/test/java/net/tutorial/*.java
  ```
- Notice that the classpath includes `build/libs/*`.  Recall that we saved the two JUnit `jar` files in this directory.
+ Notice that the classpath includes `build/libs/*`.  Recall that we downloaded and saved the two JUnit `jar` files in this directory.
  
 1. Run the `TestRunner` application.
  ```bash
