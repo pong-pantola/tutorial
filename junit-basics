@@ -193,7 +193,7 @@ In this tutorial we will learn how to create a simple test class that is used to
     import org.junit.Assert;
  ```
 
- we need to specify the `Assert` class when using the `assertEquals` method:
+ we need to specify the `Assert` class when calling the `assertEquals` method:
 
  ```java
         Assert.assertEquals("3 + 7 should be 10", 10, m.add(3, 7));
