@@ -142,7 +142,7 @@ In this tutorial we will learn how to create a simple test class that is used to
 
 ####Test the Java class
 
-1. Let's examine the code `MyTest.java` which we will serve as the test class to test the methods of `Math.java`.
+1. Let's examine the code `MyTest.java` which will serve as the test class to test the methods of `Math.java`.
 
  >`src/main/test/net/tutorial/MyTest.java`:
 
