@@ -120,6 +120,8 @@ In this tutorial we will learn how to create a simple test class that is used to
  <br>
  
 1. Compile `Math.java` and `Calculator.java`.
+ > Make sure that you are in the `junit-basics` directory before issuing the command below.
+ 
  ```bash
     >javac -d build/classes/main src/main/java/net/tutorial/*.java
  ```
@@ -127,10 +129,14 @@ In this tutorial we will learn how to create a simple test class that is used to
 1. Run the `Calculator` application.
  ```bash
     >java -classpath build/classes/main net/tutorial/Calculator
+ ```
+  **Output:**
+ ```bash    
     5 + 9 = -4
     8 - 2 = 6
     4 x 7 = 28
  ```
+
  As expected, the output `5 + 9 = -4` is wrong.  In addition, it took approximately 3 secs. before the line `4 x 7 = 28` appeared.
  
 
@@ -311,6 +317,9 @@ In this tutorial we will learn how to create a simple test class that is used to
 1. Run the `TestRunner` application.
  ```bash
     >java -classpath build/libs/*;build/classes/main;build/classes/test net/tutorial/TestRunner
+ ``` 
+  **Output:**
+ ```bash  
     Error #:1
     multiplyShouldReturnProduct(net.tutorial.MyTest): test timed out after 1000 milliseconds
     
