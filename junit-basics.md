@@ -1,4 +1,4 @@
-##Application Development Tutorialx
+##Application Development Tutorial
 
 ###JUnit Basics
 JUnit is a simple framework to write repeatable tests. You may go to http://junit.org/ for additional information regarding JUnit.
