@@ -116,7 +116,7 @@ In this tutorial we will learn how to create a simple test class that is used to
     }
  ```
 
- `Calculator.java` represents a sample application that uses the `Math` class we discussed above.  
+ `Calculator.java` represents a sample application that uses the `Math.java` class we discussed above.  
  <br>
  
 1. Compile `Math.java` and `Calculator.java`.
