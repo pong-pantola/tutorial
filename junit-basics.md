@@ -6,6 +6,7 @@ JUnit is a simple framework to write repeatable tests. You may go to http://juni
 In this tutorial we will learn how to create a simple test class that is used to test the methods of a Java class.
 
 >**Prerequisite:**
+
 >Having a good understanding of Java programming is required to do this tutorial.
 
 
@@ -27,7 +28,7 @@ In this tutorial we will learn how to create a simple test class that is used to
  
  `src` has two subdirectories: `main` and `test`. 
 
- `src/main` contains the Java class `src/main/java/net/tutorial/Math.java` which we will be tested later suing JUnit.  In addition, it contains the `src/main/java/net/tutorial/Calculator.java` which is a sample Java application that uses `Math.java`. 
+ `src/main` contains the Java class `src/main/java/net/tutorial/Math.java` which we will be tested later using JUnit.  In addition, it contains the `src/main/java/net/tutorial/Calculator.java` which is a sample Java application that uses `Math.java`. 
 
  `src/test` contains the Java class `src/test/java/net/tutorial/MyTest.java` which is the test class that will be used to test `Math.java`.  In addition, it contains the `src/test/java/net/tutorial/TestRunner.java` which is a Java application that will run the test. 
  
