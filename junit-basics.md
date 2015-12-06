@@ -266,7 +266,7 @@ In this tutorial we will learn how to create a simple test class that is used to
 
  <br>
  
-1. Let's now see how the test class `MyTest.java` is executed.   `TestRunner.java` is an application that runs the tests in `MyTest.java`.
+1. Let's now see how the test class `MyTest.java` is executed.   `TestRunner.java` is an application that runs the test methods found in `MyTest.java`.
 
  >`src/test/java/net/tutorial/TestRunner.java`:
  
